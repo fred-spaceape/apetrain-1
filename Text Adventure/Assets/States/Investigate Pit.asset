@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1359dd4dc61d45bf89b0d4773120f4b, type: 3}
+  m_Name: Investigate Pit
+  m_EditorClassIdentifier: 
+  storyText: 'The pit is deep, but you have a length of rope that you use to descend
+    safely. At the bottom is a chest. You greedily throw open the chest. Flip a coin
+
+    1. Heads
+
+    2. Tails'
+  nextStates:
+  - {fileID: 11400000, guid: 9086a5c866dcf4442a2116fd1fe891ac, type: 2}
+  - {fileID: 11400000, guid: 34ff3cad67e78423399170826fed7970, type: 2}

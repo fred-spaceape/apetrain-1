@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1359dd4dc61d45bf89b0d4773120f4b, type: 3}
+  m_Name: IgnoreFountainSneak
+  m_EditorClassIdentifier: 
+  storyText: 'You ignore the fountain and continue on your quest.
+
+    1. Continue...'
+  nextStates:
+  - {fileID: 11400000, guid: da493c2f547c24b98aa437a63ed01e18, type: 2}

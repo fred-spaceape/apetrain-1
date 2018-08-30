@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1359dd4dc61d45bf89b0d4773120f4b, type: 3}
+  m_Name: GoEast1
+  m_EditorClassIdentifier: 
+  storyText: 'You head east towards the voices. The voices get louder as you approach
+    and you can make out the sounds of two people having an argument. As you round
+    the corner you catch sight of two HOBGOBLINS, caught in a vicious argument.
+
+
+    1. Attack the Hobgoblins
+
+    2. Try to sneak past while they are distracted by the argument'
+  nextStates:
+  - {fileID: 11400000, guid: 6e7d6a3fe29ab41ce8c87e71bd83031d, type: 2}
+  - {fileID: 11400000, guid: e6728751a303041fba56becf03fd27d5, type: 2}

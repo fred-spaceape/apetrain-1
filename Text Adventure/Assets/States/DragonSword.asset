@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1359dd4dc61d45bf89b0d4773120f4b, type: 3}
+  m_Name: DragonSword
+  m_EditorClassIdentifier: 
+  storyText: 'You enter a large chamber. The room is filled with treasure. On top
+    of the treasure there is a large DRAGON. The dragon roars a challenge.
+
+    1. Attack with magic sword
+
+    2. Attack with normal sword'
+  nextStates:
+  - {fileID: 11400000, guid: 4069a158affff48e8ab7278db4201842, type: 2}
+  - {fileID: 11400000, guid: 3132188fc154e4d4bb289ef07631efea, type: 2}

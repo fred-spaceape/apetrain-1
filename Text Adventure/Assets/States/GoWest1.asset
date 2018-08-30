@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1359dd4dc61d45bf89b0d4773120f4b, type: 3}
+  m_Name: GoWest1
+  m_EditorClassIdentifier: 
+  storyText: "You head west down the corridor.  You can feel the passageway heading
+    slightly downwards. Eventually you come to a wooden door. You carefully open the
+    door and enter a circular room, with a large pit in the middle and a door on the
+    far side. \n\n1. Investigate the pit\n2. Ignore the pit and exit via the far door"
+  nextStates:
+  - {fileID: 11400000, guid: 24e3caf936c3846988c558382ec2a899, type: 2}
+  - {fileID: 11400000, guid: 3f121348492ff4f6c8ee4542465d3d27, type: 2}
